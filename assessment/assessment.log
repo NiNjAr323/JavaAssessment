@@ -1,0 +1,69 @@
+2022-04-10 22:13:07.670  INFO 11680 --- [restartedMain] c.j.a.JavaAssessmentApplication          : Starting JavaAssessmentApplication using Java 17.0.2 on DESKTOP-RPTUMQA with PID 11680 (C:\eclipse\workspace-spring\assessment\target\classes started by ziome in C:\eclipse\workspace-spring\assessment)
+2022-04-10 22:13:07.670 DEBUG 11680 --- [restartedMain] c.j.a.JavaAssessmentApplication          : Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-10 22:13:07.671  INFO 11680 --- [restartedMain] c.j.a.JavaAssessmentApplication          : No active profile set, falling back to 1 default profile: "default"
+2022-04-10 22:13:07.705  INFO 11680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-10 22:13:07.705  INFO 11680 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-10 22:13:08.125  INFO 11680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-10 22:13:08.160  INFO 11680 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-04-10 22:13:08.573  INFO 11680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-10 22:13:08.581  INFO 11680 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-10 22:13:08.582  INFO 11680 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-10 22:13:08.645  INFO 11680 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-10 22:13:08.646  INFO 11680 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 940 ms
+2022-04-10 22:13:08.668  INFO 11680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-10 22:13:08.798  INFO 11680 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-10 22:13:08.807  INFO 11680 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:dbAssessment'
+2022-04-10 22:13:08.911  INFO 11680 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-10 22:13:08.949  INFO 11680 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-04-10 22:13:09.062  INFO 11680 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-10 22:13:09.152  INFO 11680 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-10 22:13:09.581  INFO 11680 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-10 22:13:09.588  INFO 11680 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 22:13:09.776  WARN 11680 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-10 22:13:09.898  INFO 11680 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-10 22:13:10.012  INFO 11680 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-10 22:13:10.039  INFO 11680 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-10 22:13:10.048  INFO 11680 --- [restartedMain] c.j.a.JavaAssessmentApplication          : Started JavaAssessmentApplication in 2.652 seconds (JVM running for 3.209)
+2022-04-10 22:13:18.967  INFO 11680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-10 22:13:18.968  INFO 11680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-10 22:13:18.968  INFO 11680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-10 22:13:18.993 DEBUG 11680 --- [http-nio-8080-exec-1] c.j.a.controllers.HomeController         : goHome function from HomeController was used
+2022-04-10 22:13:19.010 DEBUG 11680 --- [http-nio-8080-exec-2] c.j.a.controllers.BookController         : getListPage function from BookController was used
+2022-04-10 22:13:19.010 DEBUG 11680 --- [http-nio-8080-exec-2] c.java.assessment.services.BookService   : count function from BookService was used
+2022-04-10 22:13:20.914 DEBUG 11680 --- [http-nio-8080-exec-7] c.j.a.controllers.BookController         : getNewRecord function from BookController was used
+2022-04-10 22:13:20.915 DEBUG 11680 --- [http-nio-8080-exec-7] c.java.assessment.services.BookService   : getBooks function from BookService was used
+2022-04-10 22:13:28.535 DEBUG 11680 --- [http-nio-8080-exec-2] c.j.a.controllers.BookController         : addBook function from BookController was used
+2022-04-10 22:13:28.535 DEBUG 11680 --- [http-nio-8080-exec-2] c.java.assessment.services.BookService   : addBook function from BookService was used
+2022-04-10 22:13:28.566 DEBUG 11680 --- [http-nio-8080-exec-6] c.j.a.controllers.BookController         : getListPage function from BookController was used
+2022-04-10 22:13:28.566 DEBUG 11680 --- [http-nio-8080-exec-6] c.java.assessment.services.BookService   : count function from BookService was used
+2022-04-10 22:13:28.567 DEBUG 11680 --- [http-nio-8080-exec-6] c.java.assessment.services.BookService   : getBooks function from BookService was used
+2022-04-10 22:13:42.404  INFO 11680 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-04-10 22:13:42.419  INFO 11680 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-10 22:13:42.426 ERROR 11680 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1514) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1490) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:516) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:412) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-04-10 22:13:42.623  WARN 11680 --- [RMI TCP Connection(10)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Baza danych jest już zamknięta (aby zablokować samoczynne zamykanie podczas zamknięcia VM dodaj ";DB_CLOSE_ON_EXIT=FALSE" do URL bazy danych)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-10 22:13:42.623  INFO 11680 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-10 22:13:42.678  INFO 11680 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
